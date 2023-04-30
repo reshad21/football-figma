@@ -1,5 +1,6 @@
 import React from 'react';
 import PlayerCard from '../../../components/PlayerCard';
+import PolarChart from '../../../components/PolarChart';
 import ProfileCard from '../../../components/ProfileCard';
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
                     <ProfileCard></ProfileCard>
                 </div>
                 <div className="">
-                    <ProfileCard></ProfileCard>
+                    <PolarChart></PolarChart>
                 </div>
             </div>
         </div>
