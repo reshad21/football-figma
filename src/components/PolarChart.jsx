@@ -28,8 +28,17 @@ const PolarChart = () => {
                 backgroundColor: [
                     'rgba(75,192,192,0.6)'
                 ],
-                borderWidth: 4,
+                borderWidth: 2,
                 borderColor: 'black'
+            },
+            {
+                label: 'level of thiccness',
+                data: [32, 45, 12, 76, 69],
+                backgroundColor: [
+                    'rgba(75,192,192,0.6)'
+                ],
+                borderWidth: 2,
+                borderColor: 'green'
             }
         ]
     }
