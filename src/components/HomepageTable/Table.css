@@ -1,0 +1,52 @@
+table {
+    /* border: 1px solid #b3adad; */
+    border-collapse: collapse;
+    padding: 5px;
+    font-weight: bold;
+}
+
+table th {
+    border-top: 1px solid #b3adad;
+    border-bottom: 1px solid #b3adad;
+    padding: 5px;
+    background: #ffffff;
+    color: #313030;
+    font-size: 13px;
+}
+
+table td {
+    /* border: 1px solid #b3adad; */
+    text-align: center;
+    padding: 5px;
+    background: #ffffff;
+    color: #313030;
+    font-size: 13px;
+}
+
+/* custome css */
+/* table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+/* specific cell */
+#cell-border {
+    /* border-top: 2px solid red; */
+    /* border-left: 2px solid red; */
+    border-right: 1px solid black;
+    /* border-bottom: 1px solid black; */
+}
+
+#row-border {
+    border-bottom: 1px solid black;
+}
+
+/* tr:nth-child(1){
+    cellspacing: 10px;
+} */
+.larger-padding {
+    padding-right: 80px;
+}
