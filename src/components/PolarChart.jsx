@@ -60,7 +60,7 @@ const PolarChart = () => {
 
 
     return (
-        <div className='card bg-base-100 w-[385px] py-3 rounded-md'>
+        <div className='card bg-base-100 w-[50%] py-3 rounded-md'>
             <div className="cardHeader pb-3 px-4 flex justify-evenly">
                 <Link className='btn w-[102px] h-[38px] rounded-full btn-outline'>Model</Link>
                 <Link className='btn w-[102px] h-[38px] rounded-full bg-[#14314E]'>Style</Link>

@@ -2,7 +2,7 @@ import React from 'react';
 import playerIcon from '../assets/portrait-professional-soccer-player-red-shirt-isolated-white 1.png';
 const PlayerCard = () => {
     return (
-        <div className="card bg-base-100 w-[385px] py-3 rounded-md">
+        <div className="card bg-base-100 w-[65%] py-3 rounded-md">
             <div className="flex flex-col justify-center items-center ">
                 <figure className=''>
                     <img src={playerIcon} alt="Shoes" className='w-[152px] h-[152px] rounded-full border-2 border-[#FD413B] p-2' />

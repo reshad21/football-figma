@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ProfileCard = () => {
     return (
-        <div className='card bg-base-100 w-[385px] py-3 rounded-md'>
+        <div className='card bg-base-100 w-[50%] py-3 rounded-md'>
             <div className="cardHeader pb-3 px-4">
                 <Link className='btn w-[102px] h-[38px] rounded-full mr-2 bg-[#14314E]'>Profile</Link>
                 <Link className='btn w-[102px] h-[38px] rounded-full btn-outline'>Position</Link>
