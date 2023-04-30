@@ -1,5 +1,6 @@
 import React from 'react';
 import PlayerCard from '../../../components/PlayerCard';
+import ProfileCard from '../../../components/ProfileCard';
 
 const Home = () => {
     return (
@@ -7,9 +8,13 @@ const Home = () => {
             <div>
                 <PlayerCard></PlayerCard>
             </div>
-            <div>
-                <div className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, distinctio consequuntur. Ab, itaque illo? Explicabo, voluptate quaerat, quod minima impedit ut iure similique, suscipit necessitatibus dicta pariatur reiciendis! Quos, beatae?</div>
-                <div className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vitae, ab optio dignissimos rerum sequi, maiores aliquid nihil officiis ratione nobis perspiciatis libero totam quisquam impedit ducimus corporis eveniet dolore?</div>
+            <div className='flex gap-5'>
+                <div className="">
+                    <ProfileCard></ProfileCard>
+                </div>
+                <div className="">
+                    <ProfileCard></ProfileCard>
+                </div>
             </div>
         </div>
     );
