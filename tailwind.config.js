@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'my-font': ['Roboto', 'sans-serif', 'Manrope']
+    }
   },
   plugins: [require("daisyui")],
 }
